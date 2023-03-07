@@ -1107,6 +1107,21 @@ button {
 	.PreQuest {
 		padding: 88px 5px 87px;
 	}
+	.QuestLimiterAnswer {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.QuestLimiterAnswer p {
+		max-width: 90vw;
+		text-align: justify;
+		margin: 20px auto 0 20px;
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.QuestLimiterLink {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 /*--Quest--*/
 /*Start*/
